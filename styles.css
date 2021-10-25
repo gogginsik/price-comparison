@@ -142,4 +142,10 @@ body {
     font-weight: bold;
     border-radius: 4px;
     margin-top: 3rem;
+    transition: 100ms;
+    transform: scale(1);
+}
+
+.cta:hover, .cta:focus {
+    transform: scale(1.1);
 }
