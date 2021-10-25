@@ -38,6 +38,7 @@ body {
 }
 
 .price-column.popular {
+    position: relative;
     background-color: var(--accent-color);
     box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
     color: white;
@@ -117,4 +118,15 @@ body {
 .feature.inactive {
     color: #999;
     text-decoration-line: line-through;
+}
+
+.most-popular {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    right: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
 }
